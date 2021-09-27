@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void read_menu(FILE *fptr_menun, int *c1, double *p1,int *c2,double *p2,int *c3,double *p3);
+void read_menu(FILE *fptr_menu, int *c1, double *p1,int *c2,double *p2,int *c3,double *p3);
 void read_discount(FILE *fptr_disc, int *d1, int *d2, int *d3);
 int read_choice(int c1,int c2,int c3,double p1,double p2,double p3);
 int price_off(double price, int discount);
